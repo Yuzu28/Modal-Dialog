@@ -1,0 +1,55 @@
+
+/* div{
+    display: flex;
+    align-self: center;
+    
+
+}
+
+.modal-title {
+    margin-top: 10px;
+
+} */
+
+body{
+    background-color: olive;
+}
+
+
+.modal-dialog{
+    background-color: azure;
+    border: 5px solid black;
+
+    flex-direction: column;
+    
+    width: 300px;
+    position: fixed;
+    /* position: absolute; */
+    left: 40%;
+    top: 200px;
+    
+}
+
+
+
+
+.modal-header{
+    background-color: gray;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.modal-title{
+    color: white;
+    font-size: 30px;
+}
+
+.modal-content{
+    padding: 10px;
+}
+
+.modal-buttons{
+    padding: 10px;
+    text-align: right;
+}
